@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Harshal Kotadiya | .NET Full Stack Developer</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Inter,sans-serif}
+html{scroll-behavior:smooth}
+body{background:#020617;color:#e2e8f0}
+nav{position:fixed;width:100%;top:0;background:rgba(2,6,23,.85);backdrop-filter:blur(12px);z-index:999}
+nav ul{display:flex;justify-content:center;gap:30px;padding:18px;list-style:none}
+nav a{text-decoration:none;color:#fff}
+.container{max-width:1200px;margin:auto;padding:0 24px}
+.hero{min-height:100vh;display:flex;align-items:center;justify-content:space-between;gap:60px}
+.hero img{width:350px;height:350px;border-radius:50%;object-fit:cover;border:6px solid #3b82f6;box-shadow:0 0 50px rgba(59,130,246,.5)}
+h1{font-size:4rem;font-weight:800}
+.accent{color:#60a5fa}
+.typing{font-size:1.4rem;color:#93c5fd;margin:15px 0;height:32px}
+.btn{display:inline-block;padding:14px 26px;border-radius:12px;text-decoration:none;margin:8px;background:#2563eb;color:white}
+.btn2{background:#1e293b}
+section{padding:90px 0}
+h2{font-size:2.2rem;margin-bottom:25px;color:#60a5fa}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px}
+.card{background:#0f172a;border:1px solid #1e293b;border-radius:18px;padding:24px;transition:.3s}
+.card:hover{transform:translateY(-6px)}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.stat{text-align:center;background:#0f172a;padding:25px;border-radius:16px}
+footer{padding:30px;text-align:center;background:#0f172a}
+@media(max-width:900px){
+.hero{flex-direction:column-reverse;text-align:center;padding-top:120px}
+.hero img{width:260px;height:260px}
+.stats{grid-template-columns:repeat(2,1fr)}
+h1{font-size:2.7rem}
+}
+</style>
+</head>
+<body>
+
+<nav>
+<ul>
+<li><a href="#about">About</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#experience">Experience</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+
+<div class="container">
+
+<section class="hero">
+<div>
+<h1>Harshal <span class="accent">Kotadiya</span></h1>
+<div class="typing" id="typing"></div>
+<p style="max-width:650px">
+Software Engineer with experience in .NET Full Stack Development and Python/Django backend development. Building scalable applications with ASP.NET MVC, .NET 6, Blazor, SQL Server, Entity Framework Core and REST APIs.
+</p>
+<a class="btn" href="Harshal_Kotadiya_Resume.docx" download>Download Resume</a>
+<a class="btn btn2" href="#projects">View Projects</a>
+</div>
+<img src="profile.png" alt="Harshal">
+</section>
+
+<section>
+<div class="stats">
+<div class="stat"><h2>1+</h2><p>Years Experience</p></div>
+<div class="stat"><h2>2+</h2><p>Major Projects</p></div>
+<div class="stat"><h2>95%</h2><p>ML Accuracy</p></div>
+<div class="stat"><h2>500+</h2><p>Products Managed</p></div>
+</div>
+</section>
+
+<section id="about">
+<h2>About Me</h2>
+<div class="card">
+I am a Junior Software Engineer currently working at JustCodify. My expertise includes C#, ASP.NET MVC, .NET 6, Blazor, SQL Server, REST APIs, Entity Framework Core, LINQ, and Python Django development. I enjoy solving real-world business problems through clean, maintainable, and scalable software solutions.
+</div>
+</section>
+
+<section id="skills">
+<h2>Technical Skills</h2>
+<div class="grid">
+<div class="card"><b>Backend</b><br><br>C#, ASP.NET MVC, .NET 6, Blazor, Django</div>
+<div class="card"><b>Frontend</b><br><br>HTML5, CSS3, JavaScript</div>
+<div class="card"><b>Database</b><br><br>SQL Server, MySQL, PostgreSQL, SQLite</div>
+<div class="card"><b>Tools & Concepts</b><br><br>Git, Postman, EF Core, LINQ, OOP, Agile</div>
+</div>
+</section>
+
+<section id="experience">
+<h2>Professional Experience</h2>
+<div class="card">
+<h3>JustCodify — Junior Software Engineer</h3>
+<p>Jul 2025 - Present</p>
+<ul>
+<li>Develop enterprise applications using ASP.NET MVC, .NET 6 and Blazor.</li>
+<li>Create REST APIs and optimize SQL Server databases.</li>
+<li>Implement authentication, authorization and role-based access control.</li>
+<li>Perform bug fixing and performance optimization.</li>
+</ul>
+</div><br>
+<div class="card">
+<h3>BrainyBeam Infotech — Python Developer Intern</h3>
+<p>Jan 2025 - Jun 2025</p>
+<ul>
+<li>Django backend development for e-commerce systems.</li>
+<li>Built inventory and order management APIs.</li>
+<li>Managed backend operations for 500+ products.</li>
+</ul>
+</div>
+</section>
+
+<section id="projects">
+<h2>Featured Projects</h2>
+<div class="grid">
+<div class="card">
+<h3>Gym Management System</h3>
+<p>Full-stack gym management platform with membership management, trainer management, payment tracking, diet plans and dashboards.</p>
+</div>
+<div class="card">
+<h3>Content Recommendation System</h3>
+<p>Machine learning recommendation engine achieving approximately 95% accuracy with personalized recommendations.</p>
+</div>
+</div>
+</section>
+
+<section>
+<h2>Achievements & Certifications</h2>
+<div class="grid">
+<div class="card">🏆 Best Contributor Award - JustCodify</div>
+<div class="card">📜 Infosys Springboard - Basics of Python</div>
+<div class="card">📜 TCS iON Career Edge - Young Professional</div>
+<div class="card">📜 Communication Skills Certification</div>
+</div>
+</section>
+
+<section id="contact">
+<h2>Contact</h2>
+<div class="card">
+<p>📧 harshalkotadiya20@gmail.com</p>
+<p>📱 +91 9106761310</p>
+<p>📍 Ahmedabad, Gujarat, India</p>
+</div>
+</section>
+
+</div>
+
+<footer>© Harshal Kotadiya | .NET Full Stack Developer</footer>
+
+<script>
+const roles=[".NET Full Stack Developer","Software Engineer","ASP.NET MVC Developer","Blazor Developer"];
+let i=0,j=0,del=false;
+function type(){
+ let t=roles[i];
+ document.getElementById("typing").textContent=t.substring(0,j);
+ if(!del){j++; if(j>t.length){del=true;setTimeout(type,1000);return;}}
+ else{j--; if(j===0){del=false;i=(i+1)%roles.length;}}
+ setTimeout(type, del?50:100);
+}
+type();
+</script>
+
+</body>
+</html>
